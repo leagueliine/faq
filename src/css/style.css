@@ -1,0 +1,83 @@
+html {
+  font-family: 'roboto', sans-serif;
+  font-size: 12px
+}
+
+body {
+  background-color: cadetblue;
+  width: 100vh;
+  height: 100vw;
+}
+
+.div-main {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  left: 350px;
+  top: 100px;
+}
+
+.main {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  width: 650px;
+  height: 360px;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.div-info {
+  padding-left: 200px;
+  padding-top: 25px;
+}
+
+.div-info .titulo {
+  position: relative;
+  bottom: 15px;
+  right: 5px;
+  padding: 5px;
+  padding-top: 20px;
+}
+
+.div-info .pgt {
+  padding-bottom: 5px;
+}
+
+
+.imagem-logo {
+  position: absolute;
+  top: 140px;
+  left: 250px;
+  z-index: 1;
+}
+
+.div-info .conteudo {
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+  opacity: 0;
+  right: 20px;
+  left: 2px;
+  transition: 0.4s ease-in-out;
+}
+
+.div-info .mostrar {
+  opacity: 1;
+  padding: 15px;
+}
+
+.div-info .btn img {
+  position: relative;
+  left: 383px;
+  bottom: 28px;
+}
+
+.div-info hr {
+  opacity: 0.3;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
